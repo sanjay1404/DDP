@@ -1,0 +1,43 @@
+==============================================================
+ Developing  Data Products - Course Project
+
+Author :Sanjay Pratap
+
+Date: 11/04/2016
+
+
+=======================================================
+US census
+
+The dataset in counties.rds contains
+
+The name of each county in the United States
+
+The total population of the county
+
+The percent of residents in the county who are white, black, hispanic, or asian
+
+
+=======================================================
+
+Data
+
+counties.rds is a dataset of demographic data for each county in the United States,
+
+collected with the UScensus2010 R package.
+
+========================================================
+Slide With Code
+
+counties <- readRDS("c:/census-app/data/counties.rds")
+
+head(counties)
+
+========================================================
+
+Slide With Data
+
+```{r}
+counties <- readRDS("c:/census-app/data/counties.rds")
+head(counties)
+```
